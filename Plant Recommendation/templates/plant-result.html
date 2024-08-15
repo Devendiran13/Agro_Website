@@ -1,0 +1,46 @@
+<style>
+  body {
+    /* Set the background image */
+    background-image: url('https://wallpaperaccess.com/full/4829849.jpg');
+    
+    /* Set background size, repeat, and position as needed */
+    background-size: cover; /* or contain for different scaling options */
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    /* Add other styles as needed */
+    /* For example: */
+    color: #100f0f; /* Set text color to white */
+}
+  .mt-0 {
+  margin-top: 50 !important;
+}
+  @keyframes gradientAnimation {
+      0% {
+          background-position: 0% 50%;
+      }
+      100% {
+          background-position: 100% 50%;
+      }
+  }
+
+  .text-center {
+      background: linear-gradient(90deg, #ffd700, #000000);
+      background-size: 200% 200%;
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      animation: gradientAnimation 5s infinite;
+  }
+
+</style>
+
+<div class="container py-2 mx-auto my-50 h-10 " style="margin: 12rem;">
+  <div class="row">
+      <div class="col-sm py-2 py-md-3">
+          <div class="card card-body" style="justify-content: center;">
+               <h1 class="text-center"><b>You can grow <i>{{ prediction }} </i>in your farm to acquire proper yield</b></h1>
+          </div>
+      </div>
+  </div>
+</div>
